@@ -2,7 +2,7 @@ def total_salary(path):
     try:
         total = 0                                        
         workers = 0 
-        with open(path, "r", encoding="utf-8") as file:
+        with open(path, encoding="utf-8") as file:
      
             for line in file:
                 try:

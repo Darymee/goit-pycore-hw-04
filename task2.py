@@ -1,7 +1,7 @@
 def get_cats_info(path):
     cat_list = []
     try:
-        with open(path, "r", encoding="utf-8") as file:
+        with open(path, encoding="utf-8") as file:
             for line in file:
                 try:
                     cat_id, name, age = line.strip().split(',')
